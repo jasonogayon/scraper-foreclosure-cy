@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es5", "dom"],
+        "types": [
+            "cypress",
+            "cypress-xpath",
+            "node"
+        ]
+    },
+    "include": ["**/*.ts", "plugins/index.js", "support/index.js", "support/commands.js"]
+}
